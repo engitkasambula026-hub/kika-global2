@@ -41,7 +41,7 @@ export default function Navigation() {
           {/* JOBS DROPDOWN MENU */}
           <div style={{ position: "relative" }}>
             <button onClick={() => toggleDropdown("jobs")} style={{ background: "none", border: "none", color: "#ffffff", fontSize: "15px", cursor: "pointer", padding: "8px 12px" }}>
-              Jobs {activeDropdown === "jobs" ? "▲" : "▼"}
+              Jobs Hub {activeDropdown === "jobs" ? "▲" : "▼"}
             </button>
             {activeDropdown === "jobs" && (
               <div style={{ position: "absolute", top: "50px", left: 0, width: "240px", backgroundColor: "#ffffff", boxShadow: "0 10px 15px rgba(0,0,0,0.1)", padding: "8px 0", borderRadius: "8px", border: "1px solid #e2e8f0", zIndex: 1010 }}>
@@ -69,7 +69,7 @@ export default function Navigation() {
           {/* SERVICES DROPDOWN MENU */}
           <div style={{ position: "relative" }}>
             <button onClick={() => toggleDropdown("services")} style={{ background: "none", border: "none", color: "#ffffff", fontSize: "15px", cursor: "pointer", padding: "8px 12px" }}>
-              Services {activeDropdown === "services" ? "▲" : "▼"}
+              Services Hub {activeDropdown === "services" ? "▲" : "▼"}
             </button>
             {activeDropdown === "services" && (
               <div style={{ position: "absolute", top: "50px", right: 0, width: "240px", backgroundColor: "#ffffff", boxShadow: "0 10px 15px rgba(0,0,0,0.1)", padding: "8px 0", borderRadius: "8px", border: "1px solid #e2e8f0", zIndex: 1010 }}>
@@ -83,7 +83,7 @@ export default function Navigation() {
           {/* CONTACT / AUTH DROPDOWN MENU */}
           <div style={{ position: "relative" }}>
             <button onClick={() => toggleDropdown("contact")} style={{ background: "none", border: "none", color: "#ffffff", fontSize: "15px", cursor: "pointer", padding: "8px 12px" }}>
-              Contact {activeDropdown === "contact" ? "▲" : "▼"}
+              Account Center {activeDropdown === "contact" ? "▲" : "▼"}
             </button>
             {activeDropdown === "contact" && (
               <div style={{ position: "absolute", top: "50px", right: 0, width: "200px", backgroundColor: "#ffffff", boxShadow: "0 10px 15px rgba(0,0,0,0.1)", padding: "8px 0", borderRadius: "8px", border: "1px solid #e2e8f0", zIndex: 1010 }}>
